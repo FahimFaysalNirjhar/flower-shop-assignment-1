@@ -2,6 +2,8 @@
 * {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .website-name {
@@ -50,6 +52,8 @@ nav {
     align-items: center;
     justify-content: space-around;
     background: rgba(229, 84, 115, 0.05);
+    padding-top:30px;
+    padding-bottom: 30px;
 }
 
 nav>ul {
@@ -144,4 +148,22 @@ nav li {
     width: 150px;
     height: 400px;
     padding: 100px 70px 0px 70px;
+}
+
+/* hot deal related section */
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 50px 200px;
+}
+
+.hot-deal-container{
+    display: flex;
+    gap:150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-deal{
+    margin-left: 200px;
 }

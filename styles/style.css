@@ -52,7 +52,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     background: rgba(229, 84, 115, 0.05);
-    padding-top:30px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -157,31 +157,82 @@ nav li {
     padding: 50px 200px;
 }
 
-.hot-deal-container{
+.hot-deal-container {
     display: flex;
-    gap:150px;
+    gap: 150px;
     align-items: center;
     justify-content: space-between;
 }
 
-.btn-deal{
+.btn-deal {
     margin-left: 200px;
 }
+
 /* instagram  related styles */
-.social-media-img-container{
+.social-media-img-container {
     margin: 50px 150px;
 }
 
-.social-img{
+.social-img {
     width: 300px;
     height: 300px;
 }
 
-.social-media{
+.social-media {
     margin-top: 120px;
     margin-bottom: 120px;
 }
+
 /* latest deal related styles */
-.deals{
+.deals {
+    max-width: 1240px;
+    margin: 0 auto;
     background-image: url('../flowerasset/rectangle\ 9.png');
+    background-repeat: no-repeat;
+}
+
+.deals-container {
+    padding-top: 100px;
+}
+
+
+.deals-form input[type="email"] {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px;
+    margin: 10px 20px 150px 300px;
+    width: 500px;
+
+}
+
+/* footer related style */
+footer {
+    background: #111010;
+}
+
+.footer-container {
+    padding: 110px 400px;
+}
+
+.footer-name {
+    text-align: center;
+}
+
+.footer-details {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

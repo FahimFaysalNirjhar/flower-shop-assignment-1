@@ -208,6 +208,7 @@ nav li {
 /* footer related style */
 footer {
     background: #111010;
+    margin-top: 100px;
 }
 
 .footer-container {

@@ -66,7 +66,7 @@ nav li {
     margin-right: 50px;
 }
 
-/* banner related style */
+/* banner related styles */
 .banner {
     display: flex;
     gap: 100px;
@@ -109,7 +109,7 @@ nav li {
 }
 
 .bonus-container {
-    margin: 170px 200px;
+    margin: 170px 240px;
 }
 
 .bonus-column {
@@ -150,7 +150,7 @@ nav li {
     padding: 100px 70px 0px 70px;
 }
 
-/* hot deal related section */
+/* hot deal related styles */
 .hot-deal {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -166,4 +166,22 @@ nav li {
 
 .btn-deal{
     margin-left: 200px;
+}
+/* instagram  related styles */
+.social-media-img-container{
+    margin: 50px 150px;
+}
+
+.social-img{
+    width: 300px;
+    height: 300px;
+}
+
+.social-media{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+/* latest deal related styles */
+.deals{
+    background-image: url('../flowerasset/rectangle\ 9.png');
 }
